@@ -29,6 +29,7 @@ setup(
             "hw_sts_pub = my_py_pkg.hardware_status_publisher:main",
             "led_panel = my_py_pkg.led_panel:main",
             "battery = my_py_pkg.battery:main",
+            "num_pub = my_py_pkg.number_publisher:main",
         ],
     },
 )

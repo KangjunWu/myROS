@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="my_py_pkg" exec="num_pub" name="my_number_publisher" namespace="/abc">
+    <remap from="number" to="my_number"></remap>
+    <param from="$(find-pkg-share my_robot_startup)/config/number_app.yaml"></param>
+  </node>
+  <node pkg="my_cpp_pkg" exec="num_cnt" name="my_number_counter" namespace="/abc">
+    <remap from="number" to="my_number"></remap>
+  </node>
+</launch>
