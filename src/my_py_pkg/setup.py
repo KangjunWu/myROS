@@ -17,7 +17,7 @@ setup(
     maintainer_email='wkjworking@outlook.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             "py_node = my_py_pkg.my_first_node:main",
